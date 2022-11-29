@@ -1,15 +1,28 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8">
-    <link rel="icon" type="image/svg+xml" href="/vite.svg">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- link css here only when ccs is not imported in js yet -->
-    <!-- <link rel="stylesheet" href="/css/style.css"> -->
-    <title>Hello</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-    <!-- <script src="./js/app.js" type="module"></script> -->
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="/vite.svg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="meteo_Eden">
+  <link rel="stylesheet" href="style.css">
+  <title>meteo_Eden</title>
+</head>
+
+<body>
+  <main>
+    <h1>simple weather app</h1>
+    <form id="form">
+      <input id="input" name="submitted-city" autocomplete="off" placeholder="search for a city">
+      <button id="button" type="submit">submit</button>
+    </form>
+    <div id="erreur_message"></div>
+    <section id="card">
+
+    </section>
+  </main>
+  <script src="app.js" type="module"></script>
+</body>
+
 </html>
